@@ -1,0 +1,30 @@
+SCANNER INPPUT FORMAT:
+import java.util.*;
+public class main {
+    public static void main(String[] args) {
+       Scanner ros = new Scanner(System.in);
+        int b = ros.nextInt();
+        System.out.println(b);
+    }
+}
+
+
+
+ODD OR EVEN:
+
+import java.util.*;
+public class main {
+    public static void main(String[] args) {
+        Scanner ros = new Scanner(System.in);
+        System.out.println("enter number:");
+        int b = ros.nextInt();
+        System.out.println(b);
+        if(b%2==0){
+            System.out.println("even");
+
+        }
+        else{
+            System.out.println("odd");
+        }
+    }
+}

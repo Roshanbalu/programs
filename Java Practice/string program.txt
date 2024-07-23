@@ -1,0 +1,74 @@
+public class java {
+    public static void main(String[] args) {
+        String str = "roshan";
+        for (int i=0; i<str.length();i++){
+            System.out.print(str.charAt(i)+ " ");
+        }
+    }
+}
+
+
+public class java {
+            public static void main(String[] args) {
+                String str1 = "my";
+                String str = "name";
+                String str2 = "roshan";
+                System.out.println(str1.equals(str));
+                System.out.println(str1.equals(str1));
+            }
+        }
+
+public class java {
+    public static void main(String[] args) {
+        String str = "roshan";
+        String str1 = "romu";
+        System.out.println(str1.equalsIgnoreCase(str1));
+        System.out.println(str.equalsIgnoreCase(str1));
+    }
+}
+
+
+public class java {
+    public static void main(String[] args) {
+        String str = "EXAM";
+        String stra = "exam";
+        System.out.println(str.compareTo(stra));
+    }
+
+public class java {
+public static void main(String[] args) {
+String str = "mom";
+String str1 = "MOM";
+System.out.println(str.compareToIgnoreCase(str1));
+}
+}
+
+public class java{
+    public static void main(String[] args) {
+        String str = "roshan";
+        String str1 = "ROSHAN";
+        System.out.print(str.startsWith("O",1));
+        System.out.println(str1.startsWith("O", 1));
+    }
+}
+
+
+public class java{
+    public static void main(String[] args) {
+        String str = "roshan";
+        String str1 = "ROSHAN";
+        System.out.println(str.endsWith("n"));
+        System.out.println(str1.endsWith("N"));
+    }
+}
+
+public class java
+{
+    public static void main(String[] args) {
+        String str = "dhoni";
+        String str1 = "DHONI";
+        System.out.println(str.hashCode());
+        System.out.println(str1.hashCode());
+    }
+}
+}

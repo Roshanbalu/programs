@@ -1,0 +1,25 @@
+class BestPlaceDigit {
+
+    public static void main(String[] args) {
+        int number = 523;
+        int digit = 6;
+        
+        int bestResult = findBestPlaceToInsertDigit(number, digit);
+        System.out.println("Best result after inserting digit: " + bestResult);
+    }
+
+    public static int findBestPlaceToInsertDigit(int number, int digit) {
+        String numStr = Integer.toString(number);
+        String digitStr = Integer.toString(digit);
+        
+        int maxResult = Integer.MIN_VALUE;
+
+        for (int i = 0; i <= numStr.length(); i++) {
+            String newNumberStr = numStr.substring(0, i) + digitStr + numStr.substring(i);
+            int newNumber = Integer.parseInt(newNumberStr);
+            maxResult = Math.max(maxResult, newNumber);
+        }
+
+        return maxResult;
+    }
+}
